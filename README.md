@@ -1,3 +1,26 @@
-# backend_community_homework
+﻿` `\*\*Yatube\*\* 
+#### **Описание**
+Этот проект представляет из себя социальную сеть. Она даст пользователям возможность создать учетную запись, публиковать записи, подписываться на любимых авторов и отмечать понравившиеся записи.
 
-[![CI](https://github.com/yandex-praktikum/hw02_community/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/yandex-praktikum/hw02_community/actions/workflows/python-app.yml)
+-----
+` `**Технологии**
+
+- Python 3.7
+- Django 2.2.19
+-----
+**Запуск проекта в dev-режиме**
+
+\1. Установите и активируйте виртуальное окружение 
+
+\2. Установите зависимости из файла requirements.txt 
+
+*pip install -r requirements.txt* 
+
+\3. В папке с файлом manage.py выполните команду:
+
+*python3 manage.py runserver*
+
+-----
+Автор 
+
+**Алексей Аксёнов.**
