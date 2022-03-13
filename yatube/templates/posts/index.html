@@ -4,7 +4,6 @@
 {% endblock %}
 
 {% block content %}
-      <!-- класс py-5 создает отступы сверху и снизу блока -->
       <div class="container">     
         <h1>Последние обновления на сайте</h1>
         {% for post in posts %}
@@ -24,6 +23,5 @@
           {% endif %}    
           {% if not forloop.last %}<hr>{% endif %}
         {% endfor %}
-        <!-- под последним постом нет линии -->
       </div>
 {% endblock %}
